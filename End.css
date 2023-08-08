@@ -1,0 +1,94 @@
+body{
+   background-image: url(bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: aa 5s linear infinite;
+}
+@keyframes aa{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.log{
+    
+    background: transparent;
+    border: 2px solid rgb(255,255,255,.5);
+    width: 400px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+  
+}
+h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.e{
+    position: relative;
+    margin: 10px 0;
+    width: 310px;
+    height: 50px;
+    border-bottom: 2px solid white;
+    
+}
+
+
+.l{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1.1em;
+    pointer-events: none;
+    transition: 0.5s;
+    color:white;
+}
+ .log input:focus~.l
+{
+   top: -5px;
+}
+.e input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.re{
+    font-family: ;
+    color: white;
+   display: flex;
+   justify-content: space-between;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.k{
+    color: white;
+    text-align: center;
+    
+}
+button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 60px;
+    border: none;
+    margin: 15px 0;
+    
+}
